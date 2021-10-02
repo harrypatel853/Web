@@ -49,7 +49,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li> 
 						 <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <class="caret"></a>
                         <ul class="dropdown-menu">
                             <li><a href="{% static 'about.html' %}">Company</a></li>
                             <li><a href="#">Our Team</a></li>
@@ -59,7 +59,7 @@
                     </li> 
 						<li><a href="{% static 'services.html' %}">Services</a></li>
                         <li><a href="{% static 'portfolio.html' %}">Portfolio</a></li>
-                        <li><a href="{% static 'pricing.html' %}">Pricing</a></li>
+                        <li><href="{% static 'pricing.html' %}">Pricing</li>
                         <li><a href="{% static 'contact.html' %}">Contact</a></li>
                     </ul>
                 </div>
@@ -199,7 +199,7 @@
     <!-- end services -->
 	
 	<section class="section-padding gray-bg">
-		<div class="container">
+		<div class="">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title text-center">
@@ -259,12 +259,7 @@
 						<div class="row">
 							<div class="col-md-4">
 								<!-- Heading and para -->
-								<div class="block-heading-two">
-									<h3><span>Programes</span></h3>
-								</div>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-							</div>
-							<div class="col-md-4">
+								d-4">
 								<div class="block-heading-two">
 									<h3><span>Latest News</span></h3>
 								</div>		
@@ -287,20 +282,7 @@
 										</div>
 									 </div>
 								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
+								 
 								  <div class="panel">
 									 <div class="panel-heading">
 										<h4 class="panel-title">
@@ -334,23 +316,7 @@
 								
 							</div>
 							
-							<div class="col-md-4">
-								<div class="block-heading-two">
-									<h3><span>Testimonials</span></h3>
-								</div>	
-								     <div class="testimonials">
-										<div class="active item">
-										  <blockquote><p>Lorem ipsum dolor met consectetur adipisicing. Aorem psum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
-										  <div class="carousel-info">
-											<img alt="" src="{% static 'img/team4.jpg' %}" class="pull-left">
-											<div class="pull-left">
-											  <span class="testimonials-name">Marc Cooper</span>
-											  <span class="testimonials-post">Technical Director</span>
-											</div>
-										  </div>
-										</div>
-									</div>
-							</div>
+							
 							
 						</div>
 						
@@ -367,19 +333,7 @@
 	<footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Bootstrap company Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
+			
 			<div class="col-md-3 col-sm-3">
 				<div class="widget">
 					<h5 class="widgetheading">Quick Links</h5>
@@ -406,9 +360,9 @@
 				<div class="widget">
 					<h5 class="widgetheading">Recent News</h5>
 					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a href="">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a href="">Natus error sit voluptatem accusantium doloremque</a></li>
 					</ul>
 				</div>
 			</div>
@@ -419,15 +373,13 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="copyright">
-						<p>
-							<span>&copy; Dreamfense Global Solutions Created By </span><a href="http://webthemez.com/free-bootstrap-templates/" target="_blank">Harshit Nariya</a>
-						</p>
+						
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="twitter"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title=""><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
 						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
