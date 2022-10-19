@@ -26,7 +26,7 @@
 <div class="topbar">
   <div class="container">
     <div class="row">
-      <div class="col-md-12"> 	  
+      <div class="col-md-10"> 	  
         <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span></p>
         <p class="pull-right"><i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
       </div>
@@ -52,7 +52,7 @@
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <class="caret"></a>
                         <ul class="dropdown-menu">
                             <li><a href="{% static 'about.html' %}">Company</a></li>
-                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">My Team</a></li>
                             <li><a href="#">News</a></li> 
                             <li><a href="#">Investors</a></li>
                         </ul>
@@ -96,11 +96,11 @@
 	<section id="call-to-action-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 col-sm-9">
+				<div class="col-md-8 col-sm-7">
 					<h3>Travel makes one modest!!</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti</p>
 				</div>
-				<div class="col-md-2 col-sm-3">
+				<div class="col-md-3 col-sm-2">
 					<a href="#" class="btn btn-primary">Read More</a>
 				</div>
 			</div>
@@ -121,7 +121,7 @@
 
 		<div class="row box-section">
             {% for dest in dests %}
-            <div class="col-md-4">
+            <div class="col-md-3">
 			<div class="box-content">
 			<a href="{% static 'details.html' %}">
                 <img class="img-responsive" src="{{ bring }}/{{ dest.img }}" alt="">
@@ -141,14 +141,14 @@
 	
 	<div class="container">
 	    	<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-9">
 				<div class="aligncenter"><h2 class="aligncenter">Our Services</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</div>
 				<br/>
 			</div>
 		</div>
 
 	 <div class="row">
-            <div class="col-sm-4 info-blocks">
+            <div class="col-sm-3 info-blocks">
                 <i class="icon-info-blocks fa fa-bell-o"></i>
                 <div class="info-blocks-in">
                     <h3>Consulting</h3>
@@ -162,7 +162,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
             </div>
-            <div class="col-sm-4 info-blocks">
+            <div class="col-sm-3 info-blocks">
                 <i class="icon-info-blocks fa fa-lightbulb-o"></i>
                 <div class="info-blocks-in">
                     <h3>Analysis</h3>
@@ -178,7 +178,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
             </div>
-            <div class="col-sm-4 info-blocks">
+            <div class="col-sm-3 info-blocks">
                 <i class="icon-info-blocks fa fa-compress"></i>
                 <div class="info-blocks-in">
                     <h3>Creative</h3>
